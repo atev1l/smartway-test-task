@@ -15,7 +15,7 @@ const App = () => {
 
     useEffect(()=>{
         dispatch(fetchCats())
-    }, [])
+    }, [dispatch])
 
     return (
         <div className="App">

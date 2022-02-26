@@ -67,7 +67,8 @@ export const Card = ({
 					onClick={addHandleFavourites}>
 
 						<div>
-							<img src={icon} />
+
+							<img alt={title} src={icon} />
 						</div>
 						<div>
 							В избранное
