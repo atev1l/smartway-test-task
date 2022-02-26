@@ -68,7 +68,10 @@ export const Card = ({
 
 						<div>
 
-							<img alt={title} src={icon} />
+							<img alt={title} src={icon} style={{
+								width: '50px',
+								height: '50px'
+							}} />
 						</div>
 						<div>
 							В избранное
